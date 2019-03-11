@@ -1022,7 +1022,6 @@ VKeyboard.prototype = {
 
   Show: function(value)
   {
-    console.log('this', this);
     var ct = this.Cntr.style;
 
     ct.display = ((value == undefined) || (value == true)) ? "block" : ((value == false) ? "none" : ct.display);
